@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Information" />
         <activity android:name=".AddandSetup" />
-        <activity android:name=".PutCoin"></activity>
+        <activity android:name=".PutCoin" />
+        <activity android:name=".KakaoFriends"></activity>
     </application>
 
 </manifest>
