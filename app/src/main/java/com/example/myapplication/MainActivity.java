@@ -15,20 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //
-        //Log.d("activity_main", "oncreate 호출됨");
-        //
 
-        ListView listView = (ListView) findViewById(R.id.listviewpromise);
-        listView.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Information.class);
-                startActivity(intent);
-
-            }
-        });
 
 
     }
