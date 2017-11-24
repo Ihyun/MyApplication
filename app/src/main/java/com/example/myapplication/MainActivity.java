@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         //
         //Log.d("activity_main", "oncreate 호출됨");
         //
-
+//dudhfhghgh
         ListView listView = (ListView) findViewById(R.id.listviewpromise);
         listView.setOnClickListener(new View.OnClickListener() {
 
